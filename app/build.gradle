@@ -2,7 +2,9 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
 
+    //----------arouter 配置 start----------------------------------
     id 'kotlin-kapt'
+    //----------arouter 配置 end------------------------------------
 }
 //----------arouter 配置 start----------------------------------
 kapt {
@@ -55,6 +57,10 @@ dependencies {
     annotationProcessor 'com.alibaba:arouter-compiler:1.5.2'
     kapt 'com.alibaba:arouter-compiler:1.5.2'
     //----------arouter 配置 end------------------------------------
+
+    implementation project(':libJava')
+    implementation project(':libKotlin')
+    implementation project(':libJavaKotlin')
 
     implementation 'androidx.core:core-ktx:1.3.2'
     implementation 'androidx.appcompat:appcompat:1.2.0'

@@ -8,3 +8,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "MyArouterDemo"
 include ':app'
+include ':libJava'
+include ':libKotlin'
+include ':libJavaKotlin'
