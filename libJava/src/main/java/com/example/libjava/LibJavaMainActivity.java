@@ -20,7 +20,7 @@ public class LibJavaMainActivity extends AppCompatActivity {
 
     public void toMainActivity(View view) {
         ARouter.getInstance().build("/router/app/main/").navigation();
-        Log.d("test","LibJavaMainActivity toMainActivity");
+        Log.d("test","LibJavaMainActivity toMainActivity 路由跳转发起");
     }
 
     public void toMainActivity2(View view) {
