@@ -18,7 +18,7 @@ class MyApplication : Application() {
     }
     private fun isDebugApp(context: Context):Boolean{
 
-        //Log.d("test","MyApplication BuildConfig.DEBUG = ${BuildConfig.DEBUG}")
+        Log.d("test","MyApplication BuildConfig.DEBUG = ${BuildConfig.DEBUG}")
 
         return try {
             val info = context.applicationInfo
