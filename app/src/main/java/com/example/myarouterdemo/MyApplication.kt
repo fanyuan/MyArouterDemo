@@ -18,6 +18,7 @@ class MyApplication : Application() {
 
         Log.d("test","123 MyApplication BuildConfig.DEBUG = ${BuildConfig.DEBUG}")
     }
+    // 判断是否处于调试模式
     private fun isDebugApp(context: Context):Boolean{
 
         //Log.d("test","MyApplication BuildConfig.DEBUG = ${BuildConfig.DEBUG}")
